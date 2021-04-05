@@ -3,12 +3,12 @@ module.exports = {
   title: 'TitanBot',
   tagline: 'Multipurpose Discord Bot',
   url: 'https://whix100.github.io',
-  baseUrl: '/titandocs/',
+  baseUrl: '/TitanDocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'whix100',
-  projectName: 'titandocs',
+  projectName: 'TitanDocs',
   themeConfig: {
     navbar: {
       title: 'TitanDocs',
