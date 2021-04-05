@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{86:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/titandocs/blog/welcome"},{"title":"Hello","permalink":"/titandocs/blog/hello-world"},{"title":"Hola","permalink":"/titandocs/blog/hola"}]}')}}]);
