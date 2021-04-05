@@ -3,7 +3,7 @@ module.exports = {
   title: 'TitanBot',
   tagline: 'Multipurpose Discord Bot',
   url: 'https://whix100.github.io',
-  baseUrl: '/',
+  baseUrl: '/titandocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
