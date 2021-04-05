@@ -8,7 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'whix100',
-  projectName: 'titandocs',
+  projectName: 'TitanDocs',
   themeConfig: {
     navbar: {
       title: 'TitanDocs',
