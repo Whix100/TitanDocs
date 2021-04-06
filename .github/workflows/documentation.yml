@@ -6,6 +6,9 @@ on:
   push:
     branches: [main]
 
+env:
+  GIT_USER: Whix100
+
 jobs:
   checks:
     if: github.event_name != 'push'
