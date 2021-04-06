@@ -7,36 +7,66 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features = [
-  {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+    {
+        title: 'Easy to Use',
+        imageUrl: 'img/undraw_amusement_park.svg',
+        description: (
+            <>
+                Titan is designed to be easy to use. All the available commands are listed in
+                the help menu and on this site.
+            </>
+        ),
+    },
+    {
+        title: 'Customizable',
+        imageUrl: 'img/undraw_control_panel.svg',
+        description: (
+            <>
+                There are many ways to customize Titan between server configs, user configs,
+                user profiles, event announcements, and more.
+            </>
+        ),
+    },
+    {
+        title: 'Server Moderation',
+        imageUrl: 'img/undraw_security.svg',
+        description: (
+            <>
+                Titan has multiple server moderation features including blacklisting words that
+                can't be used and muting users in text and voice channels.
+            </>
+        ),
+    },
+    {
+        title: 'User Profiles',
+        imageUrl: 'img/undraw_profile.svg',
+        description: (
+            <>
+                Ever user can customize their profile to include various things including their
+                gender, pronouns, height, alignment, and more.
+            </>
+        ),
+    },
+    {
+        title: 'User Relationships',
+        imageUrl: 'img/undraw_wedding.svg',
+        description: (
+            <>
+                Users are able to create a family tree by asking other users to date, marry, adopt,
+                and more.
+            </>
+        ),
+    },
+    {
+        title: 'Event Announcements',
+        imageUrl: 'img/undraw_happy_announcement.svg',
+        description: (
+            <>
+                Channels can be subscribed to events such as user joined, user left, and birthdays so
+                that an announcement is sent in that channel when the event is triggered.
+            </>
+        ),
+    }
 ];
 
 function Feature({imageUrl, title, description}) {
@@ -73,6 +103,14 @@ export default function Home() {
               )}
               to={useBaseUrl('docs/')}>
               Get Started
+            </Link>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              href={'https://whix100.github.io/r/titan'}>
+              Invite
             </Link>
           </div>
         </div>
