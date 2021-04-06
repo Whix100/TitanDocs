@@ -24,6 +24,11 @@ module.exports = {
                     position: 'left',
                 },
                 {
+                    href: 'https://whix100.github.io',
+                    label: 'Main Site',
+                    position: 'left',
+                },
+                {
                     href: 'https://whix100.github.io/r/titanbug',
                     label: 'Report a Bug',
                     position: 'right',
@@ -60,6 +65,10 @@ module.exports = {
                         {
                             label: 'Twitter',
                             href: 'https://twitter.com/whix100',
+                        },
+                        {
+                            label: 'Main Site',
+                            href: 'https://whix100.github.io',
                         }
                     ],
                 },
