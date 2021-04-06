@@ -8,6 +8,9 @@ on:
 
 env:
   GIT_USER: Whix100
+  USE_SSH: true
+  CURRENT_BRANCH: main
+  GIT_PASS: ${{ secrets.GIT_PASS }}
 
 jobs:
   checks:
