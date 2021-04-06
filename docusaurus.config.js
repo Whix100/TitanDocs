@@ -11,44 +11,44 @@ module.exports = {
     projectName: 'TitanDocs',
     themeConfig: {
         navbar: {
-      title: 'TitanDocs',
-      logo: {
-        alt: 'TitanBot Logo',
-        src: 'img/ReleaseLogo.png',
-      },
-      items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {
-          href: 'https://whix100.github.io/r/titanbug',
-          label: 'Report a Bug',
-          position: 'right',
-        },
-        {
-          href: 'https://whix100.github.io/r/titan',
-          label: 'Invite Titan',
-          position: 'right',
-        }
-      ],
+            title: 'TitanDocs',
+            logo: {
+                alt: 'TitanBot Logo',
+                src: 'img/ReleaseLogo.png',
+            },
+            items: [
+                {
+                    to: 'docs/',
+                    activeBasePath: 'docs',
+                    label: 'Docs',
+                    position: 'left',
+                },
+                {
+                    href: 'https://whix100.github.io/r/titanbug',
+                    label: 'Report a Bug',
+                    position: 'right',
+                },
+                {
+                    href: 'https://whix100.github.io/r/titan',
+                    label: 'Invite Titan',
+                    position: 'right',
+                }
+            ],
         },
         footer: {
             links: [
                 {
-                  title: 'Docs',
-                  items: [
-                    {
-                        label: 'Getting Started',
-                        to: 'docs/',
-                    },
-                    {
-                        label: 'FAQ',
-                        to: 'docs/faq',
-                    }
-                  ],
+                    title: 'Docs',
+                    items: [
+                        {
+                            label: 'Getting Started',
+                            to: 'docs/',
+                        },
+                        {
+                            label: 'FAQ',
+                            to: 'docs/faq',
+                        }
+                    ],
                 },
                 {
                     title: 'Community',
@@ -85,17 +85,11 @@ module.exports = {
           '@docusaurus/preset-classic',
           {
             docs: {
-              sidebarPath: require.resolve('./sidebars.js'),
-              // Please change this to your repo.
-              editUrl:
-                'https://github.com/facebook/docusaurus/edit/master/website/',
+                sidebarPath: require.resolve('./sidebars.js'),
+                // Please change this to your repo.
+                editUrl:
+                    'https://github.com/Whix100/TitanDocs/',
             },
-            // blog: {
-            //   showReadingTime: true,
-            //   // Please change this to your repo.
-            //   editUrl:
-            //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-            // },
             theme: {
               customCss: require.resolve('./src/css/custom.css'),
             },
