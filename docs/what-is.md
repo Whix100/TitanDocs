@@ -7,7 +7,7 @@ slug: /
 [![Discord Bots](https://top.gg/api/widget/status/471489146238533633.svg?noavatar=true)](https://top.gg/bot/471489146238533633)
 [![Discord Bots](https://top.gg/api/widget/owner/471489146238533633.svg?noavatar=true)](https://top.gg/bot/471489146238533633)
 [![Discord Bots](https://top.gg/api/widget/upvotes/471489146238533633.svg?noavatar=true)](https://top.gg/bot/471489146238533633)
-[![Discord](https://discordapp.com/api/guilds/697526380400869386/widget.png?style=shield)](https://whix100.github.io/r/titan)
+[![Discord](https://discordapp.com/api/guilds/697526380400869386/widget.png?style=shield)](https://whix100.github.io/r/ipcd)
 
 ## Learn all about what Titan can do for your Discord server!
 ---

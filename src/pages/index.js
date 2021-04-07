@@ -113,6 +113,11 @@ export default function Home() {
               Invite
             </Link>
           </div>
+          <a href="https://whix100.github.io/TitanDocs"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwhix100.github.io%2FAssets%2FJson%2FTotalLinesShield.json"/></a>
+          <a href="https://top.gg/bot/471489146238533633"><img src="https://top.gg/api/widget/status/471489146238533633.svg?noavatar=true"/></a>
+          <a href="https://top.gg/bot/471489146238533633"><img src="https://top.gg/api/widget/owner/471489146238533633.svg?noavatar=true"/></a>
+          <a href="https://top.gg/bot/471489146238533633"><img src="https://top.gg/api/widget/upvotes/471489146238533633.svg?noavatar=true"/></a>
+          <a href="https://whix100.github.io/r/ipcd"><img src="https://discordapp.com/api/guilds/697526380400869386/widget.png?style=shield"/></a>
         </div>
       </header>
       <main>

@@ -27,7 +27,8 @@ module.exports = {
         type: 'category',
         label: 'More Information',
         items: [
-          'faq'
+          'faq',
+          'tos'
         ]
     }
   ]

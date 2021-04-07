@@ -82,6 +82,10 @@ module.exports = {
                         {
                             label: 'Bug Report',
                             href: 'https://whix100.github.io/r/titanbug',
+                        },
+                        {
+                            label: 'Terms of Service',
+                            to: 'docs/tos',
                         }
                     ],
                 },
