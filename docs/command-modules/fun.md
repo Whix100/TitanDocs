@@ -16,3 +16,4 @@ Users that are related to each other are more likely to have higer percentages o
 :::
 
 - `t!ping`: Get latency between when a message is sent and when Titan recieves it.
+- `t!choose`: Randomly chooses an option from the given list. Accepts a maximum of 5 options separated by , / \ | : or ;
