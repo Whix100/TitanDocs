@@ -37,6 +37,11 @@ module.exports = {
                     href: 'https://whix100.github.io/r/titan',
                     label: 'Invite Titan',
                     position: 'right',
+                },
+                {
+                    href: 'https://top.gg/bot/471489146238533633/vote',
+                    label: 'Vote for Titan',
+                    position: 'right',
                 }
             ],
         },
